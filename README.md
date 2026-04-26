@@ -1,5 +1,9 @@
 # QENS — Quantum Entanglement Navigation Simulator
 
+[![Tests](https://github.com/georgizhlv/QENS/actions/workflows/tests.yml/badge.svg)](https://github.com/georgizhlv/QENS/actions/workflows/tests.yml)
+[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 An open-source educational simulator for quantum-enhanced spacecraft navigation.
 Models how entangled quantum sensors outperform classical inertial navigation
 in deep space, where GPS is unavailable and sensor drift is the limiting factor.
@@ -76,6 +80,13 @@ of **1/√N** for N atoms. This is a 31x improvement for N=1000 atoms.
 
 The Kalman filter fuses INS predictions with periodic X-ray pulsar position fixes.
 Quantum INS has such low process noise that it barely needs external corrections.
+
+---
+
+## Interactive Tutorial
+
+Open [`QENS_Tutorial.ipynb`](QENS_Tutorial.ipynb) in Jupyter for a step-by-step
+walkthrough with live plots — no setup needed beyond `pip install`.
 
 ---
 
